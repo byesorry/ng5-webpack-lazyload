@@ -1,0 +1,49 @@
+{
+  "name": "ex02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "dev": "webpack --progress --colors --config ./.pack/webpack.dev.js",
+    "dev:watch": "webpack --progress --colors --config ./.pack/webpack.dev.js -w",
+    "build": "webpack --progress --colors --config ./.pack/webpack.prod.js",
+    "build:watch": "webpack --progress --colors --config ./.pack/webpack.prod.js -w"
+  },
+  "author": "byesorry",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^5.1.2",
+    "@angular/compiler": "^5.1.2",
+    "@angular/core": "^5.1.2",
+    "@angular/http": "^5.1.2",
+    "@angular/platform-browser": "^5.1.2",
+    "@angular/platform-browser-dynamic": "^5.1.2",
+    "@angular/router": "^5.1.2",
+    "angular-in-memory-web-api": "^0.5.2",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.5.3",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.19"
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.5",
+    "@types/webpack": "^3.8.2",
+    "angular-router-loader": "^0.8.2",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.4.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.1"
+  }
+}
