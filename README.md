@@ -15,3 +15,7 @@ npm run dev:watch
 # build
 npm run build
 npm run build:watch
+
+# CLI
+npm install -g byesorryng5
+doc: https://www.npmjs.com/package/byesorryng5
